@@ -1,0 +1,20 @@
+Source: backlight-gui
+Section: utils
+Priority: optional
+Maintainer: Esrille Inc. <info@esrille.com>
+Build-Depends: debhelper (>=11),dh-python,autotools-dev,python3-dev,pkg-config
+Standards-Version: 4.1.2
+Homepage: https://github.com/esrille/backlight-gui
+Vcs-Git: https://github.com/esrille/backlight-gui.git
+Vcs-Browser: https://github.com/esrille/backlight-gui
+
+Package: backlight-gui
+Architecture: all
+Depends: gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         python3,
+         python3-gi,
+         ${gir:Depends},
+         ${misc:Depends},
+         ${python3:Depends}
+Description: Adjust backlight brightness

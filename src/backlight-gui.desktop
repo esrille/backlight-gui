@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Backlight
+Name[ja]=バックライト
+Comment=Adjust backlight brightness
+Comment[ja]=バックライトの明るさを調整
+Icon=backlight-gui
+Exec=backlight-gui
+Terminal=false
+Categories=GTK;Settings;HardwareSettings;
