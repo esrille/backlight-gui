@@ -1,3 +1,9 @@
+backlight-gui (0.1.1) unstable; urgency=low
+
+  * See https://github.com/esrille/backlight-gui/releases/tag/v0.1.1
+
+ -- Esrille Inc. <info@esrille.com>  Mon, 28 Sep 2020 13:08:00 +0900
+
 backlight-gui (0.1.0) unstable; urgency=low
 
   * See https://github.com/esrille/backlight-gui/releases/tag/v0.1.0
